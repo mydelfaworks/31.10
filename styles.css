@@ -1,0 +1,36 @@
+/*
+* {
+    color: yellow;
+}
+
+p {
+    color: blue !important;
+}
+
+#text {
+    color: blueviolet;
+}
+
+p {
+    color: red;
+}
+*/
+
+.yg {
+    color: yellowgreen;
+}
+
+.buttn {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.buttn:hover {
+    background-color: #292929;
+    border: 5px dashed aquamarine;
+    border-radius: 100%;
+}
+.buttn:active {
+    background-color: #3b2f2f;
+}
