@@ -26,11 +26,47 @@ p {
     background-color: #000000;
     color: #FFFFFF;
 }
+
 .buttn:hover {
     background-color: #292929;
     border: 5px dashed aquamarine;
     border-radius: 100%;
 }
+
 .buttn:active {
     background-color: #3b2f2f;
+}
+
+.idata {
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+}
+.idata:focus {
+    background-color: #8ab5f5;
+    border-radius: 6px;
+}
+
+input:checked+span {
+    color: red;
+}
+
+.list-item:first-child {
+    color: green;
+}
+.list-item:last-child {
+    color: yellowgreen;
+}
+/* .list-item:nth-child(even) */
+.list-item:nth-child(odd) {
+    color: aqua;
+}
+.list-item {
+    list-style: none;;
+}
+.list-item::before {
+    content: "До эщкерии ";
+}
+.list-item::after {
+    content: " После ещкерии";
 }
